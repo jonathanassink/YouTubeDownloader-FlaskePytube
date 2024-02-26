@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="style" href="sitehtml.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+    <h1>YOUTUBE DOWLOADER</h1>
+    <div class="quadro">
+        <img src="" alt="">
+        <form action="/download" method="post">
+            <label for="url">Digite o link do vídeo de um video do YouTube:</label>
+            <input type="text" name="url" required>
+            <br>
+            <label for="download_type">Escolha o tipo de download:</label>
+            <select name="download_type">
+                <option value="audio">Apenas Áudio</option>
+                <option value="video">Vídeo com Áudio</option>
+            </select>
+            <br>
+            <button type="submit">Baixar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/* static/style.css */
+
+body {
+    background: linear-gradient(to right, #000000, #8b0000);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Adiciona esta linha para empilhar elementos verticalmente */
+    align-items: center;
+    justify-content: center;
+}
+
+.quadro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 45px;
+    width: 35%; /* Defini uma largura fixa para o quadro */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #8b0000;
+}
+
+header {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
